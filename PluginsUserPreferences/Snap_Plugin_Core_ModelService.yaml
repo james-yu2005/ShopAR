@@ -1,0 +1,20 @@
+ExternalSources:
+  type: "std::map<class Es::Uuid,class Es::Path,struct std::less<class Es::Uuid>,class std::allocator<struct std::pair<class Es::Uuid const ,class Es::Path> > >"
+  value:
+    - 11b8e6a4-412e-4601-a2a5-6ae58f1afaa4: "C:/Users/dr/Downloads/ShopAR-main/3d-image-generator/fbx-downloads-format/obj6.fbx"
+    - 4babb513-e261-4c32-a9e5-e18291d4928c: "C:/Program Files/Snap Inc/Lens Studio/JsPlugins/PresetsRegistry/Assets/WorldMeshMaterial/Resources/world_mesh.ss_graph"
+    - 60bb8358-3ea2-40b6-b40e-961ca73b4814: "C:/Program Files/Snap Inc/Lens Studio/JsPlugins/PresetsRegistry/Assets/Resources/Normal.png"
+    - 69def049-1914-4580-bd79-d7b44a726027: "C:/Program Files/Snap Inc/Lens Studio/JsPlugins/PresetsRegistry/Assets/UberPBRMaterial/Resources/uber_pbr.ss_graph"
+    - 6b8fb179-a63b-44c2-bba4-47fd66f03177: "C:/Users/dr/Documents/obj4.fbx"
+    - 71131cf9-ced4-40e5-be47-8123de602bcd: "C:/Users/dr/Downloads/Bentham-Regular.ttf"
+    - 790abb34-f05e-4aea-97f8-bf3b1ba4f60e: "C:/Users/dr/Documents/obj3.fbx"
+    - 849e0bc2-83a8-49f0-ab66-47cfdcdc585c: "C:/Program Files/Snap Inc/Lens Studio/JsPlugins/PresetsRegistry/Assets/Resources/Base.png"
+    - b585fdcb-efeb-47cc-ad70-a25423f3769e: "C:/Program Files/Snap Inc/Lens Studio/JsPlugins/PresetsRegistry/Assets/TypeScript/Resources/Untitled TypeScript.ts"
+    - bbe02e32-3ef0-43e5-96d9-c08a92c61a32: "C:/Users/dr/Downloads/ShopAR-main/3d-image-generator/fbx-downloads-format/obj8.fbx"
+    - cfe5b50d-e079-4305-bee2-32d19b0d32b3: "C:/Users/dr/AppData/Local/Temp/LensStudio_BShQMq/10 Animal Material Pack.lspkg"
+    - d7be655c-6f8a-47ab-8668-4ababeb4c740: "C:/Users/dr/AppData/Local/Temp/LensStudio_wIKjRv/Text Logger V2.lspkg"
+    - e7769eb4-a33e-4f5f-920a-c6ab3353fa81: "C:/Users/dr/Downloads/ShopAR-main/3d-image-generator/fbx-downloads-format/obj9.fbx"
+    - f0240208-d59c-4e3c-80cc-96040443e542: "C:/Program Files/Snap Inc/Lens Studio/JsPlugins/PresetsRegistry/Assets/Script/Resources/Untitled JavaScript.js"
+    - f5e6df88-4183-4894-acaf-7085a005a64c: "C:/Users/dr/Documents/obj1.fbx"
+    - fb407a6b-6aee-468d-a779-fefb35c7999a: "C:/Users/dr/Documents/obj5.fbx"
+  options: 4

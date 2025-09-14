@@ -1,0 +1,221 @@
+- !<AssetImportMetadata/790abb34-f05e-4aea-97f8-bf3b1ba4f60e>
+  ImportedAssetIds:
+    .hidden/Material.001: !<reference> 65b4dc39-e047-466f-8e99-36a267715a18
+    .hidden/white: !<reference> 20ebc196-b68d-4095-8dbd-2459f60eb721
+    301dd0011f09bdc5: !<reference> ad16b369-cac2-48c3-a653-f32875e1bda4
+    58762122891231eb: !<reference> 319b0352-bacf-4e20-b86d-7bc464b3ae4c
+    683ba510dfc8b870: !<reference> 7dd53ac2-456c-4bc9-8347-324fbcf5d948
+    7a0dd5cd69df73fa: !<reference> 3f5000d9-7c16-4285-87ca-7387d5dd4712
+    Materials/Material.001: !<reference> adbabe9f-154c-477d-bbad-c11acd421862
+    Materials/Material.001|Material.001|GraphPassInfo: !<reference> aac87428-bfe8-4838-95cf-477ddbea1ff7
+    Meshes/Mesh1.0: !<reference> 56b9b905-f972-4b64-9489-c998360e7032
+    Scene: !<reference> ff2fa4f9-5bb0-438e-b104-ff55611e5cfc
+    Textures/texture_0: !<reference> e997529a-48d1-47d4-82bf-47b64214695e
+    dfc6b5263c7add41: !<reference> 655aff20-e7aa-4ab0-8d0a-b7c400e46090
+    f67b8335867a4b89: !<reference> a69caa4b-43d4-43e6-81fb-7f07b483a0de
+    ffb43a2e46775da7: !<reference> 07811445-27fa-40ae-9409-ab0469e5d6d7
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> ff2fa4f9-5bb0-438e-b104-ff55611e5cfc
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 44efc7b5-fc8a-4881-baa6-ab5353f55794
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/15a9233e-7c19-45b9-bc14-3bba67b163aa>
+  PrefabRemaps:
+    []
+  Name: Mesh1.0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b3a18449-ad0e-4f71-8562-3701cbdf7588
+- !<SceneObject/1ca24a82-6b59-4788-9c6a-84b3501f5579>
+  PrefabRemaps:
+    []
+  Name: obj3
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2a003373-4dc6-48f7-a4d1-6babeeb98a6a
+    - !<own> 737c9d53-5474-4670-931f-ea5c62a100d2
+    - !<own> 15a9233e-7c19-45b9-bc14-3bba67b163aa
+  Components:
+    []
+- !<SceneObject/2a003373-4dc6-48f7-a4d1-6babeeb98a6a>
+  PrefabRemaps:
+    []
+  Name: Camera
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 735.889160, y: 495.830933, z: 692.579102}
+    Rotation: {x: -157.231201, y: 37.891670, z: -145.651505}
+    Scale: {x: 100.000000, y: 100.000008, z: 99.999992}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5d3617d9-3f63-4c0a-bd55-317a89e9e280
+- !<ObjectPrefab/3e10efe2-6f98-4ee6-8258-ad58c03d8c62>
+  PackagePath: ""
+  objects:
+    - !<own> 1ca24a82-6b59-4788-9c6a-84b3501f5579
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/44efc7b5-fc8a-4881-baa6-ab5353f55794>
+  SourceRemaps:
+    - 07811445-27fa-40ae-9409-ab0469e5d6d7: 737c9d53-5474-4670-931f-ea5c62a100d2
+    - 319b0352-bacf-4e20-b86d-7bc464b3ae4c: 15a9233e-7c19-45b9-bc14-3bba67b163aa
+    - 3f5000d9-7c16-4285-87ca-7387d5dd4712: 1ca24a82-6b59-4788-9c6a-84b3501f5579
+    - 655aff20-e7aa-4ab0-8d0a-b7c400e46090: 2a003373-4dc6-48f7-a4d1-6babeeb98a6a
+    - 7dd53ac2-456c-4bc9-8347-324fbcf5d948: e9ca9ae0-3b2c-44f1-b155-369eeff47041
+    - a69caa4b-43d4-43e6-81fb-7f07b483a0de: b3a18449-ad0e-4f71-8562-3701cbdf7588
+    - ad16b369-cac2-48c3-a653-f32875e1bda4: 5d3617d9-3f63-4c0a-bd55-317a89e9e280
+    - ff2fa4f9-5bb0-438e-b104-ff55611e5cfc: 3e10efe2-6f98-4ee6-8258-ad58c03d8c62
+  SourceState: !<own> 3e10efe2-6f98-4ee6-8258-ad58c03d8c62
+- !<Camera/5d3617d9-3f63-4c0a-bd55-317a89e9e280>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  renderLayer: 1
+  MipmapLevel: 0
+  RenderOrder: 0
+  Size: 20.000000
+  Near: 10.000000
+  Far: 10000.000000
+  Fov: 79.195511
+  ClearColor: !<CameraClearColor>
+    Mode: None
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  ClearDepth: !<CameraClearDepth>
+    Mode: None
+    Value: 1.000000
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Aspect: 1.000000
+  CameraType: Perspective
+  DepthMode: Regular
+  DeviceProperty: All
+  AspectPreset: Custom
+  OitLayers: NoOit
+  RenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+  DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/737c9d53-5474-4670-931f-ea5c62a100d2>
+  PrefabRemaps:
+    []
+  Name: Light
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 407.624542, y: 590.386230, z: -100.545395}
+    Rotation: {x: -132.466431, y: 72.779228, z: -169.256332}
+    Scale: {x: 100.000008, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e9ca9ae0-3b2c-44f1-b155-369eeff47041
+- !<RenderMeshVisual/b3a18449-ad0e-4f71-8562-3701cbdf7588>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> adbabe9f-154c-477d-bbad-c11acd421862
+  Mesh: !<reference> 56b9b905-f972-4b64-9489-c998360e7032
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<LightSource/e9ca9ae0-3b2c-44f1-b155-369eeff47041>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  renderLayer: 1
+  LightType: Point
+  Intensity: 1000.000000
+  CastShadows: false
+  ShadowDensity: 1.000000
+  ShadowBlurRadius: 0.000000
+  ShadowTextureSize: 512
+  AutoLightSourcePosition: false
+  AutoShadowFrustumSize: false
+  AutoShadowFrustumSizeExtend: 2.000000
+  ShadowFrustumSize: 30.000000
+  ShadowFrustumNearClipPlane: 1.000000
+  ShadowFrustumFarClipPlane: 1000.000000
+  UseEnvMapFromCamera: false
+  EnvMapFromCameraMode: Auto
+  EstimationSharpness: 1.000000
+  EnvMapExposure: 1.000000
+  EnvMapRotation: 0.000000
+  DiffuseEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  SpecularEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+  DynamicEnvInputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  InnerConeAngle: 0.000000
+  OuterConeAngle: 1.000000
+  DecayType: None
+  DecayLimit: false
+  DecayRange: 1.000000

@@ -1,0 +1,117 @@
+- !<AssetImportMetadata/e7769eb4-a33e-4f5f-920a-c6ab3353fa81>
+  ImportedAssetIds:
+    .hidden/Material.001: !<reference> f5d6ca3e-1b5a-49ef-bb90-d822e462c53b
+    .hidden/white: !<reference> 84376f3b-b3fd-48dd-b5e4-a9622933033d
+    25d5ab76609209e8: !<reference> 56553f56-9df4-4ae1-bfa6-a001b92a31a2
+    7a0dd5cd69df73fa: !<reference> 5ac67321-b693-4c5c-95a0-e49f5649b3d2
+    Materials/Material.001: !<reference> 06cfaa30-a4c7-4009-95d3-8e4d372b9479
+    Materials/Material.001|Material.001|GraphPassInfo: !<reference> e909ef2b-97df-4dd6-99d2-de9dbe33761c
+    Meshes/input: !<reference> b5d0cc66-9847-4c8a-8544-5abf6c159851
+    Scene: !<reference> b82d8f8a-1483-40bb-8c69-5828725d4edc
+    Textures/texture_0: !<reference> 7c7cb94b-fe10-433a-8af6-3ceb5f857c62
+    e08af43e07410c35: !<reference> 9438aba2-3e07-44e2-8ae9-98a1d25e3734
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> b82d8f8a-1483-40bb-8c69-5828725d4edc
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> d7aabe4c-7b00-410b-a224-04803297b6b7
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/59349aa4-9938-411e-ae0e-5570624b2f6d>
+  PrefabRemaps:
+    []
+  Name: input
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7250048b-8759-4a9d-a282-ea9747df91e9
+- !<SceneObject/6760ed0f-5687-442a-8359-ec05aacd498f>
+  PrefabRemaps:
+    []
+  Name: obj9
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 59349aa4-9938-411e-ae0e-5570624b2f6d
+  Components:
+    []
+- !<RenderMeshVisual/7250048b-8759-4a9d-a282-ea9747df91e9>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 06cfaa30-a4c7-4009-95d3-8e4d372b9479
+  Mesh: !<reference> b5d0cc66-9847-4c8a-8544-5abf6c159851
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/ba18c63a-9ac1-4ca0-91a6-2ebb783369b7>
+  PackagePath: ""
+  objects:
+    - !<own> 6760ed0f-5687-442a-8359-ec05aacd498f
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/d7aabe4c-7b00-410b-a224-04803297b6b7>
+  SourceRemaps:
+    - 56553f56-9df4-4ae1-bfa6-a001b92a31a2: 59349aa4-9938-411e-ae0e-5570624b2f6d
+    - 5ac67321-b693-4c5c-95a0-e49f5649b3d2: 6760ed0f-5687-442a-8359-ec05aacd498f
+    - 9438aba2-3e07-44e2-8ae9-98a1d25e3734: 7250048b-8759-4a9d-a282-ea9747df91e9
+    - b82d8f8a-1483-40bb-8c69-5828725d4edc: ba18c63a-9ac1-4ca0-91a6-2ebb783369b7
+  SourceState: !<own> ba18c63a-9ac1-4ca0-91a6-2ebb783369b7
