@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopify Product Fetcher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Shopify AR Fetcher</h1>
+      <p>Fetch products, generate meshes, and display in AR</p>
+    </div>
+
+    <div class="workflow-indicator" id="workflowIndicator">
+      <div class="workflow-steps">
+        <div class="workflow-step active" id="step1">
+          <div class="step-icon">1</div>
+          <span>Fetch</span>
+        </div>
+        <div class="workflow-step" id="step2">
+          <div class="step-icon">2</div>
+          <span>Generate</span>
+        </div>
+        <div class="workflow-step" id="step3">
+          <div class="step-icon">3</div>
+          <span>Display</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="button-group">
+      <button id="fetchBtn" class="action-button">
+        <span class="button-icon">📦</span>
+        Fetch Products
+      </button>
+      
+      <button id="generateMeshBtn" class="action-button secondary" disabled>
+        <span class="button-icon">🎯</span>
+        Generate Meshes from Images
+      </button>
+      
+      <button id="displayArBtn" class="action-button tertiary" disabled>
+        <span class="button-icon">🥽</span>
+        Display on AR Goggles
+      </button>
+    </div>
+
+    <div id="statusContainer" class="status-container">
+      <div id="statusText" class="status-text">
+        <div id="spinner" class="spinner"></div>
+        Ready to fetch products
+      </div>
+    </div>
+
+    <div id="resultsContainer" class="results-container">
+      <div class="results-header">
+        Products Found
+        <span id="productCount" class="product-count">0</span>
+      </div>
+      <div id="productsList"></div>
+    </div>
+  </div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

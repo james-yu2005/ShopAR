@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Shopify AR Product Fetcher",
+  "version": "2.0",
+  "description": "Fetch Shopify products, generate 3D meshes, and display in AR",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
