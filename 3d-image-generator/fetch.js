@@ -8,15 +8,15 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Replace with your actual API key
-const headers = { Authorization: `msy_LCuho4qevejyHt1aRnEjKZFTDDbKV0CHVaGi` };
+const headers = { Authorization: `${api_Key}` };
 
 // Folder to save FBX files
 const saveFolder = path.join(__dirname, 'fbx_downloads');
 if (!fs.existsSync(saveFolder)) fs.mkdirSync(saveFolder);
 
 // Load products.json file
-
-const products = JSON.parse(jsonData);
+const productsJsonData = '../data-scraper/products.json'
+const products = JSON.parse(productsJsonData);
 
 // Helper function to extract link from description
 const extractLink = (description) => {
