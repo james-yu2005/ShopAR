@@ -216,7 +216,7 @@ class ExtensionUI {
 
   async handleFetch() {
     const shopDomain = "shop-irl-htn";
-    const accessToken = "44aee7c4d25d2330a6d28d70d8a8fb60";
+    const accessToken = "";
 
     this.setLoading(this.fetchBtn, true, 'Fetching...', 'Fetch Products');
     this.resultsContainer.style.display = 'none';
