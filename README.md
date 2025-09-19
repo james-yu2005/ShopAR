@@ -7,7 +7,7 @@
 ShopAR integrates **augmented reality Snapchat Spectacles** with the **Shopify ecosystem**, providing an exciting technical demo of the future of *interactive online commerce*.
 
 <img width="414" height="506" alt="image" src="https://github.com/user-attachments/assets/a81f53a5-0ddf-4abe-80ae-e0cf444fb33f" />
-<img width="630" height="681" alt="image" src="https://github.com/user-attachments/assets/7665746c-d057-4ae0-ae3a-65fd4a664c0c" />
+<img width="414" height="506" alt="image" src="https://github.com/user-attachments/assets/7665746c-d057-4ae0-ae3a-65fd4a664c0c" />
 
 
 ### Motivation 💡
